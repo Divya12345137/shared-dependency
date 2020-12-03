@@ -1,11 +1,24 @@
-{ "name": "ethopia-waza",
+{
+  "name": "@divya12345137/ethopia-waza",
   "description": "a delightfully fruity coffee varietal",
   "version": "1.2.3",
   "devDependencies": {
-    "coffee-script": "~1.6.3"
+    "babel-eslint": "^10.0.1",
+    "cypress": "^5.6.0"
   },
-  "scripts": {
-    "prepare": "coffee -o lib/ -c src/waza.coffee"
+  
+  "main": "lib/waza.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divya12345137/shared-dependency.git"
   },
-  "main": "lib/waza.js"
+  "keywords": [
+    "\"a\""
+  ],
+  "author": "Divya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divya12345137/shared-dependency/issues"
+  },
+  "homepage": "https://github.com/Divya12345137/shared-dependency#readme"
 }
