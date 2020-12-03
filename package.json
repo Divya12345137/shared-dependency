@@ -2,6 +2,10 @@
   "name": "@divya12345137/ethopia-waza",
   "description": "a delightfully fruity coffee varietal",
   "version": "1.2.3",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "cypress": "^5.6.0",
